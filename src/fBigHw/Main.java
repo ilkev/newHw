@@ -10,5 +10,10 @@ public class Main {
         Book CapitainsDoughter = new Book("Капитанская дочка", pushkin, 1836);
 
         CrimeAndPunishment.setYearOfPublication(1866);
+
+        System.out.println(CrimeAndPunishment.toString());
+        System.out.println(CrimeAndPunishment.equals(CapitainsDoughter));
+        System.out.println(dovstoevsky.equals(pushkin));
+
     }
 }
