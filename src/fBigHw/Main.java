@@ -11,7 +11,7 @@ public class Main {
 
         CrimeAndPunishment.setYearOfPublication(1866);
 
-        System.out.println(CrimeAndPunishment.toString());
+        System.out.println(CrimeAndPunishment);
         System.out.println(CrimeAndPunishment.equals(CapitainsDoughter));
         System.out.println(dovstoevsky.equals(pushkin));
 
