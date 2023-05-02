@@ -2,13 +2,13 @@ package fBigHw;
 
 public class Book {
     private String title;
-    private String Author;
+    private Author author;
     private int yearOfPublication;
 
 
-    public Book(String title, String author, int yearOfPublication) {
+    public Book(String title, Author author, int yearOfPublication) {
         this.title = title;
-        Author = author;
+        this.author = author;
         this.yearOfPublication = yearOfPublication;
     }
 
@@ -17,8 +17,8 @@ public class Book {
         return title;
     }
 
-    public String getAuthor() {
-        return Author;
+    public Author getAuthor() {
+        return author;
     }
 
     public int getYearOfPublication() {
